@@ -79,21 +79,6 @@
             position: relative;
         }
         
-        .badge {
-            position: absolute;
-            top: -8px;
-            right: -8px;
-            background-color: var(--secondary);
-            color: white;
-            border-radius: 50%;
-            width: 18px;
-            height: 18px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 12px;
-            font-weight: bold;
-        }
         
         .hero {
             background-color: var(--primary);

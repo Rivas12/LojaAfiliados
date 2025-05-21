@@ -25,18 +25,7 @@ function App() {
                 </div>
                 <div class="nav-icons">
                     <div class="nav-icon">
-                        <i>&#128269;</i>
-                    </div>
-                    <div class="nav-icon">
-                        <i>Perfil</i>
-                    </div>
-                    <div class="nav-icon">
-                        <i>Favoritos</i>
-                        <span class="badge">2</span>
-                    </div>
-                    <div class="nav-icon">
-                        <i>Carrinho</i>
-                        <span class="badge">3</span>
+                        <i>Criar lojinha</i>
                     </div>
                 </div>
             </nav>

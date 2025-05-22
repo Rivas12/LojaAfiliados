@@ -55,42 +55,6 @@ return (
             </div>
         </section>
 
-        <section className="categories">
-            <div className="container">
-                <h2 className="section-title">Categorias Populares</h2>
-                <div className="category-grid">
-                    <div className="category-card">
-                        <div className="category-img">Moda</div>
-                        <div className="category-info">
-                            <h3>Moda</h3>
-                            <p>42 produtos</p>
-                        </div>
-                    </div>
-                    <div className="category-card">
-                        <div className="category-img">Eletrônicos</div>
-                        <div className="category-info">
-                            <h3>Eletrônicos</h3>
-                            <p>38 produtos</p>
-                        </div>
-                    </div>
-                    <div className="category-card">
-                        <div className="category-img">Casa</div>
-                        <div className="category-info">
-                            <h3>Casa</h3>
-                            <p>24 produtos</p>
-                        </div>
-                    </div>
-                    <div className="category-card">
-                        <div className="category-img">Bebês</div>
-                        <div className="category-info">
-                            <h3>Bebês</h3>
-                            <p>16 produtos</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section className="featured-products">
             <div className="container">
                 <h2 className="section-title">Produtos em Destaque</h2>
@@ -157,6 +121,42 @@ return (
                                 <button className="add-to-cart">Adicionar ao Carrinho</button>
                                 <button className="wishlist-btn">♡</button>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section className="categories">
+            <div className="container">
+                <h2 className="section-title">Categorias Populares</h2>
+                <div className="category-grid">
+                    <div className="category-card">
+                        <div className="category-img">Moda</div>
+                        <div className="category-info">
+                            <h3>Moda</h3>
+                            <p>42 produtos</p>
+                        </div>
+                    </div>
+                    <div className="category-card">
+                        <div className="category-img">Eletrônicos</div>
+                        <div className="category-info">
+                            <h3>Eletrônicos</h3>
+                            <p>38 produtos</p>
+                        </div>
+                    </div>
+                    <div className="category-card">
+                        <div className="category-img">Casa</div>
+                        <div className="category-info">
+                            <h3>Casa</h3>
+                            <p>24 produtos</p>
+                        </div>
+                    </div>
+                    <div className="category-card">
+                        <div className="category-img">Bebês</div>
+                        <div className="category-info">
+                            <h3>Bebês</h3>
+                            <p>16 produtos</p>
                         </div>
                     </div>
                 </div>

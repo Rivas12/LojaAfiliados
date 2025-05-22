@@ -61,7 +61,7 @@ return (
                 <div className="product-grid">
                     <div className="product-card">
                         <div className="product-img">
-                            Smartphone
+                            <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m9bs763t59a1fd" alt="" srcset="" />
                             <span className="discount-badge">-20%</span>
                         </div>
                         <div className="product-info">
@@ -78,7 +78,7 @@ return (
                     </div>
                     <div className="product-card">
                         <div className="product-img">
-                            Tênis
+                            <img src="https://down-br.img.susercontent.com/file/sg-11134201-7reod-m857bisg77b446@resize_w450_nl.webp" alt="" srcset="" />
                         </div>
                         <div className="product-info">
                             <h3 className="product-title">Tênis Esportivo Runner</h3>
@@ -93,7 +93,7 @@ return (
                     </div>
                     <div className="product-card">
                         <div className="product-img">
-                            Smartwatch
+                            <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-ltxyui9rvtec1c.webp" alt="" srcset="" />
                             <span className="discount-badge">-15%</span>
                         </div>
                         <div className="product-info">
@@ -110,7 +110,7 @@ return (
                     </div>
                     <div className="product-card">
                         <div className="product-img">
-                            Camiseta
+                            <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m3ywul57c3b58a.webp" alt="" srcset="" />
                         </div>
                         <div className="product-info">
                             <h3 className="product-title">Camiseta Premium Algodão</h3>

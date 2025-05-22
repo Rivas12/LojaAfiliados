@@ -217,7 +217,7 @@ header {
 }
 
 .product-img {
-    height: 220px;
+    height: 250px;
     background-color: #f3f4f6;
     display: flex;
     justify-content: center;
@@ -225,6 +225,14 @@ header {
     color: var(--gray);
     font-size: 24px;
     position: relative;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px 10px 0 0;
 }
 
 .discount-badge {

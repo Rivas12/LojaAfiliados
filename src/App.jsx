@@ -14,7 +14,6 @@ return (
                         <a href="#">Categorias</a>
                         <a href="#">Produtos</a>
                         <a href="#">Ofertas</a>
-                        <a href="#">Contato</a>
                     </div>
                     <div className="nav-icons">
                         <div className="nav-icon">

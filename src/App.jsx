@@ -1,6 +1,8 @@
 import './App.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Autoplay } from 'swiper/modules'
 import 'swiper/css'
+import 'swiper/css/navigation'
 
 function App() {
 
@@ -59,6 +61,10 @@ return (
         <section className="featured-products">
           <div className="container">
             <h2 className="section-title">Produtos em Destaque</h2>
+            <div className="carousel-controls" style={{ display: 'flex', justifyContent: 'flex-end', gap: '1rem', marginBottom: '1rem' }}>
+                <button className="custom-prev" style={{ fontSize: 24, cursor: 'pointer' }}>{'<'}</button>
+                <button className="custom-next" style={{ fontSize: 24, cursor: 'pointer' }}>{'>'}</button>
+            </div>
             <Swiper
               spaceBetween={20}
               slidesPerView={2}
@@ -66,6 +72,15 @@ return (
                 640: { slidesPerView: 2 },
                 1024: { slidesPerView: 4 }
               }}
+                navigation={{
+                    nextEl: '.custom-next',
+                    prevEl: '.custom-prev'
+                }}
+                autoplay={{
+                    delay: 1200,
+                    disableOnInteraction: false
+                }}
+              modules={[Navigation, Autoplay]}
             >
               <SwiperSlide>
                 <div className="product-card">

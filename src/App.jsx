@@ -170,25 +170,6 @@ return (
               <SwiperSlide>
                 <div className="product-card">
                   <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rd6s-m7ay77tw07n09b.webp" alt="" />
-                    <span className="discount-badge">-50%</span>
-                  </div>
-                  <div className="product-info">
-                    <h3 className="product-title">Kit 2 Câmera Segurança Prova D'água Infravermelho Lâmpada Externa 360 Sem Fio Wifi 2.4G - ICSEE YOOSEE</h3>
-                    <div className="product-price">
-                      <span className="current-price">R$ R$109,49</span>
-                      <span className="original-price">R$ R$218,98</span>
-                    </div>
-                    <div className="product-actions">
-                      <button className="add-to-cart">Comprar</button>
-                      <button className="wishlist-btn">♡</button>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="product-card">
-                  <div className="product-img">
                     <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m33xm0722i9xf3@resize_w450_nl.webp" alt="" />
                     <span className="discount-badge">-29%</span>
                   </div>

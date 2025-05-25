@@ -419,12 +419,20 @@ return (
                         <p className="footer-about">
                             Nossa missão é oferecer produtos de qualidade com preços acessíveis, garantindo a melhor experiência de compra para nossos clientes.
                         </p>
-                        <div className="social-icons">
-                            <a href="#" className="social-icon">FB</a>
-                            <a href="#" className="social-icon">IG</a>
-                            <a href="#" className="social-icon">TW</a>
-                            <a href="#" className="social-icon">YT</a>
-                        </div>
+                      <div className="social-icons">
+                        <a href="#" className="social-icon" aria-label="Instagram">
+                          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" alt="Instagram" style={{ width: 24, height: 24 }} />
+                        </a>
+                        <a href="#" className="social-icon" aria-label="Facebook">
+                          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/facebook.svg" alt="Facebook" style={{ width: 24, height: 24 }} />
+                        </a>
+                        <a href="#" className="social-icon" aria-label="Twitter">
+                          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/x.svg" alt="Twitter (X)" style={{ width: 24, height: 24 }} />
+                        </a>
+                        <a href="#" className="social-icon" aria-label="YouTube">
+                          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/youtube.svg" alt="YouTube" style={{ width: 24, height: 24 }} />
+                        </a>
+                      </div>
                     </div>
                     <div className="footer-links">
                         <h3>Links Úteis</h3>

@@ -76,23 +76,72 @@ return (
                     nextEl: '.custom-next',
                     prevEl: '.custom-prev'
                 }}
-                autoplay={{
-                    delay: 1200,
-                    disableOnInteraction: false
-                }}
-              modules={[Navigation, Autoplay]}
+              modules={[Navigation]}
             >
               <SwiperSlide>
                 <div className="product-card">
                   <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m9bs763t59a1fd" alt="" />
+                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m9puxpke51yxf4@resize_w450_nl.webp" alt="" />
+                    <span className="discount-badge">-29%</span>
+                  </div>
+                  <div className="product-info">
+                    <h3 className="product-title">Kit de Potes Herméticos Electrolux com 8 unidades de Plástico</h3>
+                    <div className="product-price">
+                      <span className="current-price">R$ 72,99</span>
+                      <span className="original-price">R$ 102,24</span>
+                    </div>
+                    <div className="product-actions">
+                      <button className="add-to-cart">Comprar</button>
+                      <button className="wishlist-btn">♡</button>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="product-card">
+                  <div className="product-img">
+                    <img src="https://down-br.img.susercontent.com/file/br-11134258-7r98o-lzp49gh02mud40https://down-br.img.susercontent.com/file/br-11134207-7r98o-ls2q2py1u9es2b@resize_w450_nl.webp" alt="" />
+                  </div>
+                  <div className="product-info">
+                    <h3 className="product-title">Kit Colçha Cobre Leito Luxo Matelado Queen-Casal-Solteiro-King - MELHOR CUSTO BENEFÍCIO</h3>
+                    <div className="product-price">
+                      <span className="current-price">R$ R$98,99</span>
+                    </div>
+                    <div className="product-actions">
+                      <button className="add-to-cart">Comprar</button>
+                      <button className="wishlist-btn">♡</button>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="product-card">
+                  <div className="product-img">
+                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7qukw-li1u0y8qr9ct0b@resize_w450_nl.webp" alt="" />
+                  </div>
+                  <div className="product-info">
+                    <h3 className="product-title">Campainha Com Câmera Vídeo Porteiro Sem Fio Wi-Fi HD Inteligente Smart Home Vê Pelo Celular Recarregável</h3>
+                    <div className="product-price">
+                      <span className="current-price">R$ 49,99</span>
+                    </div>
+                    <div className="product-actions">
+                      <button className="add-to-cart">Comprar</button>
+                      <button className="wishlist-btn">♡</button>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="product-card">
+                  <div className="product-img">
+                    <img src="https://down-br.img.susercontent.com/file/sg-11134301-7rffs-m9oaakh1ghee7f@resize_w450_nl.webp" alt="" />
                     <span className="discount-badge">-20%</span>
                   </div>
                   <div className="product-info">
-                    <h3 className="product-title">Smartphone XYZ Pro</h3>
+                    <h3 className="product-title">Relógio De Quartzo Empresarial Masculino Moderno , Pulseira De Couro Elegante , Estilo Casual E Esportivo</h3>
                     <div className="product-price">
-                      <span className="current-price">R$ 1.599,90</span>
-                      <span className="original-price">R$ 1.999,90</span>
+                      <span className="current-price">R$ 10,00</span>
+                      <span className="original-price">R$ 22,90</span>
                     </div>
                     <div className="product-actions">
                       <button className="add-to-cart">Adicionar ao Carrinho</button>
@@ -104,15 +153,15 @@ return (
               <SwiperSlide>
                 <div className="product-card">
                   <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/sg-11134201-7reod-m857bisg77b446@resize_w450_nl.webp" alt="" />
+                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lx9mzb4sn267fd@resize_w450_nl.webp" alt="" />
                   </div>
                   <div className="product-info">
-                    <h3 className="product-title">Tênis Esportivo Runner</h3>
+                    <h3 className="product-title">Espelho Orgânico 60x40 Couro + Suporte Banheiro / Sala / Quarto</h3>
                     <div className="product-price">
-                      <span className="current-price">R$ 299,90</span>
+                      <span className="current-price">R$ 89,90</span>
                     </div>
                     <div className="product-actions">
-                      <button className="add-to-cart">Adicionar ao Carrinho</button>
+                      <button className="add-to-cart">Comprar</button>
                       <button className="wishlist-btn">♡</button>
                     </div>
                   </div>
@@ -121,17 +170,17 @@ return (
               <SwiperSlide>
                 <div className="product-card">
                   <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-ltxyui9rvtec1c.webp" alt="" />
-                    <span className="discount-badge">-15%</span>
+                    <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rd6s-m7ay77tw07n09b.webp" alt="" />
+                    <span className="discount-badge">-50%</span>
                   </div>
                   <div className="product-info">
-                    <h3 className="product-title">Smartwatch Fitness</h3>
+                    <h3 className="product-title">Kit 2 Câmera Segurança Prova D'água Infravermelho Lâmpada Externa 360 Sem Fio Wifi 2.4G - ICSEE YOOSEE</h3>
                     <div className="product-price">
-                      <span className="current-price">R$ 389,90</span>
-                      <span className="original-price">R$ 459,90</span>
+                      <span className="current-price">R$ R$109,49</span>
+                      <span className="original-price">R$ R$218,98</span>
                     </div>
                     <div className="product-actions">
-                      <button className="add-to-cart">Adicionar ao Carrinho</button>
+                      <button className="add-to-cart">Comprar</button>
                       <button className="wishlist-btn">♡</button>
                     </div>
                   </div>
@@ -140,34 +189,17 @@ return (
               <SwiperSlide>
                 <div className="product-card">
                   <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m3ywul57c3b58a.webp" alt="" />
+                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m33xm0722i9xf3@resize_w450_nl.webp" alt="" />
+                    <span className="discount-badge">-29%</span>
                   </div>
                   <div className="product-info">
-                    <h3 className="product-title">Camiseta Premium Algodão</h3>
+                    <h3 className="product-title">Dispenser Porta Cereais Redondo Giratório 360 Alimentos Pote + BRINDES</h3>
                     <div className="product-price">
-                      <span className="current-price">R$ 79,90</span>
+                      <span className="current-price">R$ 99,90</span>
+                      <span className="original-price">R$ 139,90</span>
                     </div>
                     <div className="product-actions">
-                      <button className="add-to-cart">Adicionar ao Carrinho</button>
-                      <button className="wishlist-btn">♡</button>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-                            <SwiperSlide>
-                <div className="product-card">
-                  <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m9bs763t59a1fd" alt="" />
-                    <span className="discount-badge">-20%</span>
-                  </div>
-                  <div className="product-info">
-                    <h3 className="product-title">Smartphone XYZ Pro</h3>
-                    <div className="product-price">
-                      <span className="current-price">R$ 1.599,90</span>
-                      <span className="original-price">R$ 1.999,90</span>
-                    </div>
-                    <div className="product-actions">
-                      <button className="add-to-cart">Adicionar ao Carrinho</button>
+                      <button className="add-to-cart">Comprar</button>
                       <button className="wishlist-btn">♡</button>
                     </div>
                   </div>
@@ -176,51 +208,17 @@ return (
               <SwiperSlide>
                 <div className="product-card">
                   <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/sg-11134201-7reod-m857bisg77b446@resize_w450_nl.webp" alt="" />
+                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7qukw-ljvfoyvyq6qr8c@resize_w450_nl.webp" alt="" />
+                    <span className="discount-badge">-24%</span>
                   </div>
                   <div className="product-info">
-                    <h3 className="product-title">Tênis Esportivo Runner</h3>
+                    <h3 className="product-title">Kit Suplemento Hipercalórico Muscle Mass + Bcaa 3:1:1 + Creatina + Glutamina + Shaker - Espartanos</h3>
                     <div className="product-price">
-                      <span className="current-price">R$ 299,90</span>
+                      <span className="current-price">R$ 98,90</span>
+                      <span className="original-price">R$ 129,90</span>
                     </div>
                     <div className="product-actions">
-                      <button className="add-to-cart">Adicionar ao Carrinho</button>
-                      <button className="wishlist-btn">♡</button>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="product-card">
-                  <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-ltxyui9rvtec1c.webp" alt="" />
-                    <span className="discount-badge">-15%</span>
-                  </div>
-                  <div className="product-info">
-                    <h3 className="product-title">Smartwatch Fitness</h3>
-                    <div className="product-price">
-                      <span className="current-price">R$ 389,90</span>
-                      <span className="original-price">R$ 459,90</span>
-                    </div>
-                    <div className="product-actions">
-                      <button className="add-to-cart">Adicionar ao Carrinho</button>
-                      <button className="wishlist-btn">♡</button>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="product-card">
-                  <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m3ywul57c3b58a.webp" alt="" />
-                  </div>
-                  <div className="product-info">
-                    <h3 className="product-title">Camiseta Premium Algodão</h3>
-                    <div className="product-price">
-                      <span className="current-price">R$ 79,90</span>
-                    </div>
-                    <div className="product-actions">
-                      <button className="add-to-cart">Adicionar ao Carrinho</button>
+                      <button className="add-to-cart">Comprar</button>
                       <button className="wishlist-btn">♡</button>
                     </div>
                   </div>
@@ -282,7 +280,7 @@ return (
                                 <span className="original-price">R$ 1.999,90</span>
                             </div>
                             <div className="product-actions">
-                                <button className="add-to-cart">Adicionar ao Carrinho</button>
+                                <button className="add-to-cart">Comprar</button>
                                 <button className="wishlist-btn">♡</button>
                             </div>
                         </div>
@@ -297,7 +295,7 @@ return (
                                 <span className="current-price">R$ 299,90</span>
                             </div>
                             <div className="product-actions">
-                                <button className="add-to-cart">Adicionar ao Carrinho</button>
+                                <button className="add-to-cart">Comprar</button>
                                 <button className="wishlist-btn">♡</button>
                             </div>
                         </div>
@@ -314,7 +312,7 @@ return (
                                 <span className="original-price">R$ 459,90</span>
                             </div>
                             <div className="product-actions">
-                                <button className="add-to-cart">Adicionar ao Carrinho</button>
+                                <button className="add-to-cart">Comprar</button>
                                 <button className="wishlist-btn">♡</button>
                             </div>
                         </div>
@@ -329,7 +327,7 @@ return (
                                 <span className="current-price">R$ 79,90</span>
                             </div>
                             <div className="product-actions">
-                                <button className="add-to-cart">Adicionar ao Carrinho</button>
+                                <button className="add-to-cart">Comprar</button>
                                 <button className="wishlist-btn">♡</button>
                             </div>
                         </div>

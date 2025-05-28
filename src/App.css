@@ -232,6 +232,10 @@ header {
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s;
+    min-height: 420px;        /* altura mínima igual para todos */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .product-card:hover {
@@ -595,4 +599,10 @@ footer {
 .product-card:hover, .category-card:hover, .testimonial-card:hover {
   box-shadow: 0 6px 24px rgba(0,0,0,0.12);
   transform: translateY(-4px) scale(1.02);
+}
+
+.swiper-slide {
+  display: flex !important;
+  height: auto !important;
+  align-items: stretch;
 }

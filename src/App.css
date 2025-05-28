@@ -278,14 +278,13 @@ header {
 }
 
 .product-title {
-    font-size: 18px;
-    margin-bottom: 12px;
-    /* Se quiser limitar linhas, use: */
-    /* display: -webkit-box;
-       -webkit-line-clamp: 3;
-       -webkit-box-orient: vertical;
-       overflow: hidden; */
-    color: var(--dark);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  max-width: 100%;
 }
 
 .product-price {

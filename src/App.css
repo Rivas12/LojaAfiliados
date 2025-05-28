@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color: #f5f5f5;
+  background: linear-gradient(120deg, #f8fafc 0%, #e0e7ef 100%);
 }
 
 header {

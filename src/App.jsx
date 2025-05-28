@@ -144,7 +144,7 @@ return (
                       <span className="original-price">R$ 22,90</span>
                     </div>
                     <div className="product-actions">
-                      <button className="add-to-cart">Adicionar ao Carrinho</button>
+                      <button className="add-to-cart">Comprar</button>
                       <button className="wishlist-btn">♡</button>
                     </div>
                   </div>

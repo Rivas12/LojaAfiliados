@@ -4,6 +4,8 @@ import { Navigation, Autoplay } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/navigation'
 
+import ProductCard from './components/ProductCard'
+
 function App() {
 
 return (
@@ -79,131 +81,61 @@ return (
               modules={[Navigation]}
             >
               <SwiperSlide>
-                <div className="product-card">
-                  <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m9puxpke51yxf4@resize_w450_nl.webp" alt="" />
-                    <span className="discount-badge">-29%</span>
-                  </div>
-                  <div className="product-info">
-                    <h3 className="product-title">Kit de Potes Herméticos Electrolux com 8 unidades de Plástico</h3>
-                    <div className="product-price">
-                      <span className="current-price">R$ 72,99</span>
-                      <span className="original-price">R$ 102,24</span>
-                    </div>
-                    <div className="product-actions">
-                      <button className="add-to-cart">Comprar</button>
-                      <button className="wishlist-btn">♡</button>
-                    </div>
-                  </div>
-                </div>
+                <ProductCard
+                  img="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m9puxpke51yxf4@resize_w450_nl.webp"
+                  discount="-29%"
+                  title="Kit de Potes Herméticos Electrolux com 8 unidades de Plástico"
+                  price="R$ 72,99"
+                  originalPrice="R$ 102,24"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <div className="product-card">
-                  <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/br-11134258-7r98o-lzp49gh02mud40https://down-br.img.susercontent.com/file/br-11134207-7r98o-ls2q2py1u9es2b@resize_w450_nl.webp" alt="" />
-                  </div>
-                  <div className="product-info">
-                    <h3 className="product-title">Kit Colçha Cobre Leito Luxo Matelado Queen-Casal-Solteiro-King - MELHOR CUSTO BENEFÍCIO</h3>
-                    <div className="product-price">
-                      <span className="current-price">R$ R$98,99</span>
-                    </div>
-                    <div className="product-actions">
-                      <button className="add-to-cart">Comprar</button>
-                      <button className="wishlist-btn">♡</button>
-                    </div>
-                  </div>
-                </div>
+                <ProductCard
+                  img="https://down-br.img.susercontent.com/file/br-11134258-7r98o-lzp49gh02mud40https://down-br.img.susercontent.com/file/br-11134207-7r98o-ls2q2py1u9es2b@resize_w450_nl.webp"
+                  title="Kit Colçha Cobre Leito Luxo Matelado Queen-Casal-Solteiro-King - MELHOR CUSTO BENEFÍCIO"
+                  price="R$ 98,99"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <div className="product-card">
-                  <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7qukw-li1u0y8qr9ct0b@resize_w450_nl.webp" alt="" />
-                  </div>
-                  <div className="product-info">
-                    <h3 className="product-title">Campainha Com Câmera Vídeo Porteiro Sem Fio Wi-Fi HD Inteligente Smart Home Vê Pelo Celular Recarregável</h3>
-                    <div className="product-price">
-                      <span className="current-price">R$ 49,99</span>
-                    </div>
-                    <div className="product-actions">
-                      <button className="add-to-cart">Comprar</button>
-                      <button className="wishlist-btn">♡</button>
-                    </div>
-                  </div>
-                </div>
+                <ProductCard
+                  img="https://down-br.img.susercontent.com/file/br-11134207-7qukw-li1u0y8qr9ct0b@resize_w450_nl.webp"
+                  title="Campainha Com Câmera Vídeo Porteiro Sem Fio Wi-Fi HD Inteligente Smart Home Vê Pelo Celular Recarregável"
+                  price="R$ 49,99"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <div className="product-card">
-                  <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/sg-11134301-7rffs-m9oaakh1ghee7f@resize_w450_nl.webp" alt="" />
-                    <span className="discount-badge">-20%</span>
-                  </div>
-                  <div className="product-info">
-                    <h3 className="product-title">Relógio De Quartzo Empresarial Masculino Moderno , Pulseira De Couro Elegante , Estilo Casual E Esportivo</h3>
-                    <div className="product-price">
-                      <span className="current-price">R$ 10,00</span>
-                      <span className="original-price">R$ 22,90</span>
-                    </div>
-                    <div className="product-actions">
-                      <button className="add-to-cart">Comprar</button>
-                      <button className="wishlist-btn">♡</button>
-                    </div>
-                  </div>
-                </div>
+                <ProductCard
+                  img="https://down-br.img.susercontent.com/file/sg-11134301-7rffs-m9oaakh1ghee7f@resize_w450_nl.webp"
+                  discount="-20%"
+                  title="Relógio De Quartzo Empresarial Masculino Moderno , Pulseira De Couro Elegante , Estilo Casual E Esportivo"
+                  price="R$ 10,00"
+                  originalPrice="R$ 22,90"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <div className="product-card">
-                  <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lx9mzb4sn267fd@resize_w450_nl.webp" alt="" />
-                  </div>
-                  <div className="product-info">
-                    <h3 className="product-title">Espelho Orgânico 60x40 Couro + Suporte Banheiro / Sala / Quarto</h3>
-                    <div className="product-price">
-                      <span className="current-price">R$ 89,90</span>
-                    </div>
-                    <div className="product-actions">
-                      <button className="add-to-cart">Comprar</button>
-                      <button className="wishlist-btn">♡</button>
-                    </div>
-                  </div>
-                </div>
+                <ProductCard
+                  img="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lx9mzb4sn267fd@resize_w450_nl.webp"
+                  title="Espelho Orgânico 60x40 Couro + Suporte Banheiro / Sala / Quarto"
+                  price="R$ 89,90"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <div className="product-card">
-                  <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m33xm0722i9xf3@resize_w450_nl.webp" alt="" />
-                    <span className="discount-badge">-29%</span>
-                  </div>
-                  <div className="product-info">
-                    <h3 className="product-title">Dispenser Porta Cereais Redondo Giratório 360 Alimentos Pote + BRINDES</h3>
-                    <div className="product-price">
-                      <span className="current-price">R$ 99,90</span>
-                      <span className="original-price">R$ 139,90</span>
-                    </div>
-                    <div className="product-actions">
-                      <button className="add-to-cart">Comprar</button>
-                      <button className="wishlist-btn">♡</button>
-                    </div>
-                  </div>
-                </div>
+                <ProductCard
+                  img="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m33xm0722i9xf3@resize_w450_nl.webp"
+                  discount="-29%"
+                  title="Dispenser Porta Cereais Redondo Giratório 360 Alimentos Pote + BRINDES"
+                  price="R$ 99,90"
+                  originalPrice="R$ 139,90"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <div className="product-card">
-                  <div className="product-img">
-                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7qukw-ljvfoyvyq6qr8c@resize_w450_nl.webp" alt="" />
-                    <span className="discount-badge">-24%</span>
-                  </div>
-                  <div className="product-info">
-                    <h3 className="product-title">Kit Suplemento Hipercalórico Muscle Mass + Bcaa 3:1:1 + Creatina + Glutamina + Shaker - Espartanos</h3>
-                    <div className="product-price">
-                      <span className="current-price">R$ 98,90</span>
-                      <span className="original-price">R$ 129,90</span>
-                    </div>
-                    <div className="product-actions">
-                      <button className="add-to-cart">Comprar</button>
-                      <button className="wishlist-btn">♡</button>
-                    </div>
-                  </div>
-                </div>
+                <ProductCard
+                  img="https://down-br.img.susercontent.com/file/br-11134207-7qukw-ljvfoyvyq6qr8c@resize_w450_nl.webp"
+                  discount="-24%"
+                  title="Kit Suplemento Hipercalórico Muscle Mass + Bcaa 3:1:1 + Creatina + Glutamina + Shaker - Espartanos"
+                  price="R$ 98,90"
+                  originalPrice="R$ 129,90"
+                />
               </SwiperSlide>
             </Swiper>
           </div>

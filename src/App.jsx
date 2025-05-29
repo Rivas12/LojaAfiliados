@@ -72,7 +72,7 @@ return (
               slidesPerView={2}
               breakpoints={{
                 640: { slidesPerView: 2 },
-                1024: { slidesPerView: 4 }
+                1024: { slidesPerView: 5 }
               }}
                 navigation={{
                     nextEl: '.custom-next',

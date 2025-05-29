@@ -380,6 +380,21 @@ return (
                 </div>
             </div>
         </footer>
+
+        <a
+          href="https://wa.me/5511999999999"
+          className="whatsapp-float"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="WhatsApp"
+        >
+          <span className="whatsapp-pulse"></span>
+          <img
+            src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg"
+            alt="WhatsApp"
+            style={{ width: 36, height: 36, zIndex: 2, position: 'relative' }}
+          />
+        </a>
     </>
 )
 }
